@@ -1,6 +1,6 @@
 [project]
 name = "typed-signals"
-version = "0.1.0"
+version = "0.1.1"
 description = "Lightweight, strongly-typed event and signal library for Python."
 readme = "README.md"
 authors = [
@@ -16,6 +16,10 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = []
+
+[project.urls]
+homepage = "https://github.com/eyueldk/typed-signals"
+repository = "https://github.com/eyueldk/typed-signals"
 
 [build-system]
 requires = ["hatchling"]
