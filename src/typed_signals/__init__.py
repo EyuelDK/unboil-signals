@@ -1,7 +1,12 @@
 import asyncio
 from typing import Generic, Callable, ParamSpec, TypeVar, Awaitable
 
-__all__ = ["SyncSignal", "AsyncSignal"]
+__all__ = [
+    "SyncSignal", 
+    "AsyncSignal", 
+    "SyncEvent", 
+    "AsyncEvent",
+]
 
 T = TypeVar("T")
 P = ParamSpec("P")
