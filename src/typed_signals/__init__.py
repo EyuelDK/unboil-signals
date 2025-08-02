@@ -51,5 +51,5 @@ class AsyncSignal(Signal[P, Awaitable[T]]):
 class SyncEvent(SyncSignal[P, None]):
     ...
     
-class AsyncEvent(AsyncSignal[P, Awaitable[None]]):
+class AsyncEvent(AsyncSignal[P, None]):
     ...
