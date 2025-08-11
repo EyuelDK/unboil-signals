@@ -15,7 +15,7 @@ from typed_signals import SyncSignal, AsyncSignal, SyncEvent, AsyncEvent
 import asyncio
 
 # 1. SyncSignal: listeners can return values
-sig = SyncSignal[int, str]()  # takes an int, returns str
+sig = SyncSignal[[int], str]()  # takes an int, returns str
 
 @sig
 def listener(x: int) -> str:
@@ -24,7 +24,7 @@ def listener(x: int) -> str:
 results = sig.invoke(42)  # returns ["got 42"]
 
 # 2. AsyncSignal: async listeners with await
-async_sig = AsyncSignal[int, str]()  # takes int, returns str
+async_sig = AsyncSignal[[int], str]()  # takes int, returns str
 
 @async_sig
 async def async_listener(x: int) -> str:
