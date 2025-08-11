@@ -1,17 +1,21 @@
-# typed-signals
+
+# unboil-signals
+
 
 Lightweight, strongly-typed event and signal library for Python.
 
 ## Installation
 
+
 ```bash
-pip install typed-signals
+pip install unboil-signals
 ```
 
 ## Quick Start
 
+
 ```python
-from typed_signals import SyncSignal, AsyncSignal, SyncEvent, AsyncEvent
+from unboil.signals import SyncSignal, AsyncSignal, SyncEvent, AsyncEvent
 import asyncio
 
 # 1. SyncSignal: listeners can return values
