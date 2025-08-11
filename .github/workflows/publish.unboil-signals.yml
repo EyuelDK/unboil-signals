@@ -13,5 +13,5 @@ jobs:
     secrets: inherit
     with:
       environment-name: pypi
-      environment-url: https://pypi.org/p/typed-signals
+      environment-url: https://pypi.org/p/unboil-signals
 

@@ -1,6 +1,6 @@
 [project]
-name = "typed-signals"
-version = "0.1.2"
+name = "unboil-signals"
+version = "0.1.3"
 description = "Lightweight, strongly-typed event and signal library for Python."
 readme = "README.md"
 authors = [
@@ -18,8 +18,8 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-homepage = "https://github.com/eyueldk/typed-signals"
-repository = "https://github.com/eyueldk/typed-signals"
+homepage = "https://github.com/eyueldk/unboil-signals"
+repository = "https://github.com/eyueldk/unboil-signals"
 
 [build-system]
 requires = ["hatchling"]
