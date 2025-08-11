@@ -15,7 +15,7 @@ pip install unboil-signals
 
 
 ```python
-from unboil.signals import SyncSignal, AsyncSignal, SyncEvent, AsyncEvent
+from unboil_signals import SyncSignal, AsyncSignal, SyncEvent, AsyncEvent
 import asyncio
 
 # 1. SyncSignal: listeners can return values
